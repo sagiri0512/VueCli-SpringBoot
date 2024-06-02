@@ -1,0 +1,23 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    port: 587
+    username: sagiri0512@qq.com
+    password: mfruzdvhdabqgicg
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          ssl:
+            trust: smtp.qq.com
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: kong123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
