@@ -8,7 +8,7 @@
       <div class="input-container">
         <input type="password" placeholder="请输入密码" v-model.lazy="mailCode" class="input-field" />
       </div>
-      <router-link to="MailLogin">注册</router-link>
+      <router-link to="UserRegister">注册</router-link>
       <router-link to="MailLogin" style="float: right;">使用邮箱验证码登录</router-link>
       <button @click="mailLogin" class="login-button">登录</button>
     </div>
@@ -25,7 +25,7 @@ export default {
     };
   },
   methods: {
-    
+
   },
 };
 </script>
@@ -35,12 +35,13 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh; /* 让容器铺满整个视口高度 */
+  height: 90vh;
+  /* 让容器铺满整个视口高度 */
 }
 
 .mail-login-container {
   max-width: 400px;
-  padding: 20px;  
+  padding: 20px;
   border: 1px solid #ccc;
   border-radius: 5px;
 }
@@ -48,7 +49,7 @@ export default {
 .input-container {
   margin-bottom: 10px;
   display: flex;
-  align-items: center;  
+  align-items: center;
 }
 
 .input-container input {
@@ -57,7 +58,8 @@ export default {
   border: 1px solid #ccc;
   border-radius: 5px;
   width: 100%;
-  height: 20px; /* 设置输入框的高度 */
+  height: 20px;
+  /* 设置输入框的高度 */
 }
 
 

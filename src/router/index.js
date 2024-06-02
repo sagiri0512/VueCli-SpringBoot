@@ -4,6 +4,7 @@ import {
 } from 'vue-router'
 import MailLogin from '../components/MailLogin.vue'
 import UserInfoLoginVue from '../components/UserInfoLogin.vue'
+import UserRegister from '../components/UserRegister.vue'
 
 const routes = [
     {
@@ -19,6 +20,11 @@ const routes = [
         path: '/UserInfoLoginVue',
         name: 'UserInfoLoginVue',
         component: UserInfoLoginVue
+    },
+    {
+        path: '/UserRegister',
+        name: 'UserRegister',
+        component: UserRegister
     },
 ]
 

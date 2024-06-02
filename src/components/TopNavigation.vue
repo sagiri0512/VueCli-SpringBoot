@@ -1,5 +1,5 @@
 <template>
-    <div class="top">111</div>
+  <div class="top">111</div>
 </template>
 
 <script>
@@ -12,7 +12,7 @@ export default {
 };
 </script>
 <style scoped>
-.top{
+.top {
   width: 99vw;
   height: 5vh;
   background: red;
